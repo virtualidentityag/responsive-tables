@@ -108,19 +108,8 @@
     this.each(function () {
       if (!$.data(this, 'plugin_' + pluginName)) {
         $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
-
-        /**
-         * DEV-note: Use trigger failsafe events if other plugins depend on this plugins ready state
-         */
-        // trigger ready event on element - optional
-        //$.triggerFailsafeEvent($(this), 'plugin_' + pluginName + '.ready');
       }
     });
-
-    // trigger ready event globally - optional
-    //if(this.length > 0) {
-    //    $.triggerFailsafeEvent($(window), 'plugin_' + pluginName + '.ready_all');
-    //}
 
     return this;
   };
