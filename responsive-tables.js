@@ -50,7 +50,7 @@
         self.splitTable(this.$element);
         return true;
       }
-      else if (self.switched && (this.getWindowWidth() > self.options.responsiveTableBreakpoint)) {
+      else if (self.switched && (this.getWindowWidth() >= self.options.responsiveTableBreakpoint)) {
         self.switched = false;
         self.unsplitTable(self.$element);
       }
