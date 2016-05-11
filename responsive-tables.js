@@ -83,7 +83,7 @@
             tx = self.find('th, td');
 
         tx.each(function () {
-          var height = $(this).outerHeight(true);
+          var height = $(this).height();
           heights[index] = heights[index] || 0;
           if (height > heights[index]) heights[index] = height;
         });
