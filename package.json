@@ -1,0 +1,19 @@
+{
+  "name": "responsive-tables",
+  "version": "1.0.2",
+  "description": "Tables that work responsively on small devices.",
+  "main": "responsive-tables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualidentityag/responsive-tables.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virtualidentityag/responsive-tables/issues"
+  },
+  "homepage": "https://github.com/virtualidentityag/responsive-tables#readme"
+}
